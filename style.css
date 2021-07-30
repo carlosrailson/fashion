@@ -92,7 +92,7 @@ body {
   font-weight: bold;
 }
 
-.about {
+.banner {
   background-image: url("./img/moda17.jpg");
   background-position: center;
   background-size: cover;
@@ -101,18 +101,18 @@ body {
   margin-top: 50px;
 }
 
-.about:hover {
+.banner:hover {
   cursor: pointer;
 }
 
-.about h2 {
+.banner h2 {
   font-size: 40px;
   text-transform: uppercase;
   margin: 0 50% 0 0;
   color: #fff;
 }
 
-.about p {
+.banner p {
   font-size: 20px;
   margin: 50px 60% 0 0;
   color: #fff;
@@ -131,7 +131,7 @@ address p {
 
 .footer {
   background-color: #333;
-  padding: 50px;
+  padding: 10px;
   text-align: center;
   color: #fff;
 }
