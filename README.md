@@ -2,7 +2,15 @@
 
 ## Status: Em desenvolvimento ⚠️
 
-- Ainda falta adicionar a parte do código em CSS que fará o site ficar responsivo, para se adaptar a dispositivos menores. Alinhado a isso, vai ser necessário adicionar JavaScript para ficar mais interativo.
+- Ainda falta completar a parte do código em CSS que deixará o site completamente responsivo, para se adaptar a dispositivos menores. Alinhado a isso, vai ser necessário adicionar JavaScript para ficar mais interativo.
+
+### Header e Menu:
+
+![print3](https://user-images.githubusercontent.com/85134349/128105099-f72c13bf-efa0-4e09-a1ce-8a7969036cfd.png)
+
+### Portfólio:
+
+![Captura de tela 2021-07-29 10:10:32](https://user-images.githubusercontent.com/85134349/128104973-53b8d784-5610-4032-888f-2a7c4d0cad66.png)
 
 ## Resumo:
 
