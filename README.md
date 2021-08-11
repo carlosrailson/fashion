@@ -2,7 +2,7 @@
 
 ## Status: Em desenvolvimento ⚠️
 
-- Ainda falta completar a parte do código em CSS que deixará o site completamente responsivo, para se adaptar a dispositivos menores. Alinhado a isso, vai ser necessário adicionar JavaScript para ficar mais interativo.
+- Ainda falta completar a parte do código em CSS que deixará o site completamente responsivo, para se adaptar a dispositivos menores. Alinhado a isso, vai ser necessário adicionar mais códigos em JavaScript para ficar mais interativo.
 
 ### Header e Menu:
 
