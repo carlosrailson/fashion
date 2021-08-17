@@ -22,3 +22,4 @@
 
 - HTML
 - CSS
+- Javascript
