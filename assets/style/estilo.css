@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  max-width: 980px;
+  max-width: 1080px;
   margin: auto;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 .container {
-  background-image: url("/assets/img/moda8.jpg");
+  background-image: url("../img/moda8.jpg");
   background-position: center;
   background-size: cover;
   height: 500px;
@@ -116,7 +116,7 @@ body {
 }
 
 .banner {
-  background-image: url("/assets/img/moda17.jpg");
+  background-image: url("../img/moda17.jpg");
   background-position: center;
   background-size: cover;
   height: 500px;
