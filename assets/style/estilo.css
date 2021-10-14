@@ -41,14 +41,14 @@ body {
 }
 
 .container {
-  background-image: url("../img/moda8.jpg");
+  background-image: url('/assets/img/bg-man-in-suit-principal.jpg');
   background-position: center;
   background-size: cover;
   height: 500px;
 }
 
 .portfolio section {
-  padding: 50px;
+  padding: 30px;
 }
 
 .portfolio h1 {
@@ -63,19 +63,10 @@ body {
   color: #333;
 }
 
-.p {
-  border-left: 3px solid #fff;
-  padding-left: 10px;
-}
-
-.border {
-  border-left: 3px solid #000;
-}
-
 .ver-mais p {
   margin: auto;
   color: #333;
-  padding: 0 5px;
+  padding: 0;
   text-transform: uppercase;
   border: 2px solid #000;
   width: max-content;
@@ -89,11 +80,16 @@ body {
 .catalogo {
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .catalogo img {
   margin-top: 50px;
-  max-width: 100%;
+  max-width: 350px;
   height: 200px;
 }
 
@@ -101,8 +97,8 @@ body {
   cursor: pointer;
 }
 
-.foto2 {
-  padding: 0 20px;
+.fotos {
+  margin: 5px;
 }
 
 .catalogo h2,
@@ -116,7 +112,7 @@ body {
 }
 
 .banner {
-  background-image: url("../img/moda17.jpg");
+  background-image: url("/assets/img/bg-man-in-suit.jpg");
   background-position: center;
   background-size: cover;
   height: 500px;
@@ -162,15 +158,16 @@ address p {
 @media (max-width: 650px) {
   .container {
     max-width: 650px;
-    margin: auto;
+    height: 450px;
+    margin: 0;
   }
 
   .logo {
-    padding-left: 25px;
+    padding-left: 20px;
   }
 
   .logo img {
-    height: 25px;
+    height: 20px;
   }
 
   .menu ul li a {
@@ -178,12 +175,8 @@ address p {
     padding: 5px;
   }
 
-  .container {
-    height: 450px;
-  }
-
   .portfolio section {
-    padding: 25px;
+    padding: 20px;
   }
 
   .portfolio h1 {
@@ -191,7 +184,7 @@ address p {
   }
 
   .portfolio p {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.8;
   }
 
@@ -206,13 +199,9 @@ address p {
     height: 300px;
   }
 
-  .foto2 {
-    padding: 0px;
-  }
-
   .banner {
     height: 400px;
-    padding: 25px;
+    padding: 20px;
     margin-top: 30px;
   }
 
@@ -229,7 +218,7 @@ address p {
 
   address p {
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .map iframe {
