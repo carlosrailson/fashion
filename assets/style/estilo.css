@@ -28,6 +28,12 @@ body {
   align-items: center;
 }
 
+.menu-mobile {
+  display: none;
+  font-size: 30px;
+  color: #c7c7c7;
+}
+
 .header-display ul {
   display: flex;
   list-style: none;
@@ -48,7 +54,7 @@ body {
 }
 
 .container {
-  background-image: url('/assets/img/bg-man-in-suit-principal.jpg');
+  background-image: url("../img/bg-man-in-suit-principal.jpg");
   background-position: center;
   background-size: cover;
   height: 500px;
@@ -73,11 +79,16 @@ body {
 .ver-mais p {
   margin: auto;
   color: #333;
-  padding: 0;
+  padding: 0 10px;
   text-transform: uppercase;
   border: 2px solid #000;
   width: max-content;
   cursor: pointer;
+}
+
+.ver-mais p:hover {
+  background-color: #333;
+  color: #fff;
 }
 
 .adiciona-p {
@@ -95,7 +106,7 @@ body {
 
 .catalogo img {
   margin-top: 50px;
-  max-width: 350px;
+  width: 300px;
   height: 200px;
 }
 
@@ -118,7 +129,7 @@ body {
 }
 
 .banner {
-  background-image: url("/assets/img/bg-man-in-suit.jpg");
+  background-image: url("../img/bg-man-in-suit.jpg");
   background-position: center;
   background-size: cover;
   height: 500px;
@@ -185,6 +196,14 @@ address p {
     display: none;
   }
 
+  .menu-mobile {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 25px;
+    color: #c7c7c7;
+  }
+
   .portfolio section {
     padding: 20px;
   }
@@ -235,5 +254,69 @@ address p {
     max-width: 100%;
     margin-bottom: 30px;
     height: 300px;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    max-width: 450px;
+  }
+
+  .logo {
+    padding-left: 10px;
+  }
+
+  .menu-mobile {
+    padding-right: 10px;
+  }
+
+  .portfolio section {
+    padding: 10px;
+  }
+
+  .portfolio h1 {
+    font-size: 25px;
+  }
+
+  .portfolio p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .catalogo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .catalogo img {
+    margin-top: 30px;
+    height: 250px;
+  }
+
+  .banner {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .banner h2 {
+    font-size: 20px;
+    margin: 0 45% 0 0;
+  }
+
+  .banner p {
+    font-size: 15px;
+    margin: 20px 50% 0 0;
+    color: #fff;
+  }
+
+  address p {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .map iframe {
+    max-width: 100%;
+    margin-bottom: 10px;
+    height: 280px;
   }
 }
