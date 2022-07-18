@@ -88,6 +88,7 @@ body {
 .img2:hover,
 .img3:hover {
   background-color: #eee;
+  cursor: pointer;
 }
 
 .banner-art {
@@ -95,8 +96,11 @@ body {
   height: max-content;
   padding: 100px;
   background-color: #003d52;
+  background-image: url("../img/bg_detalhe.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 50%;
   color: #fff;
-  position: relative;
 }
 
 .banner-art h2 {
@@ -106,15 +110,33 @@ body {
 }
 
 .banner-art p {
-  width: 60%;
+  width: 70%;
   font-size: 20px;
   line-height: 1.5;
   margin-top: 50px;
 }
 
-.detalhe {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 300px;
+.contact-me address {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  color: #003d52;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 30px;
+}
+
+.contact-me iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.contact-me footer {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #151515;
+  color: rgb(111, 111, 111);
+  letter-spacing: 2px;
 }
