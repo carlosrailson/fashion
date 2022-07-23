@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+:root {
+  --cor-menu: rgb(111, 111, 111);
+  --second-color: #003d52;
+  --p-size: 20px;
+}
+
 body {
   margin: 0;
   font-family: sans-serif;
@@ -9,7 +15,7 @@ body {
 }
 
 .container {
-  width: 1080px;
+  max-width: 1080px;
   margin: auto;
 }
 
@@ -31,10 +37,10 @@ body {
 }
 
 .menu ul li a {
+  color: var(--cor-menu);
   letter-spacing: 3px;
   text-transform: uppercase;
   text-decoration: none;
-  color: rgb(111, 111, 111);
   padding: 10px 20px;
   transition: color 0.5s;
 }
@@ -58,7 +64,7 @@ body {
 
 .intro h2,
 .intro p {
-  font-size: 20px;
+  font-size: var(--p-size);
   line-height: 1.5;
   text-align: center;
   margin: 0;
@@ -73,20 +79,18 @@ body {
 
 .galery {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 50px 0;
 }
 
-.img1,
-.img2,
-.img3 {
+.images {
   width: max-content;
   padding: 10px;
+  margin: 10px 0;
 }
 
-.img1:hover,
-.img2:hover,
-.img3:hover {
+.images:hover {
   background-color: #eee;
   cursor: pointer;
 }
@@ -95,7 +99,7 @@ body {
   width: 100%;
   height: max-content;
   padding: 100px;
-  background-color: #003d52;
+  background-color: var(--second-color);
   background-image: url("../img/bg_detalhe.png");
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -111,7 +115,7 @@ body {
 
 .banner-art p {
   width: 70%;
-  font-size: 20px;
+  font-size: var(--p-size);
   line-height: 1.5;
   margin-top: 50px;
 }
@@ -120,7 +124,7 @@ body {
   font-size: 30px;
   font-weight: bold;
   font-style: normal;
-  color: #003d52;
+  color: var(--second-color);
   text-transform: uppercase;
   text-align: center;
   margin: 30px;
@@ -132,11 +136,36 @@ body {
 }
 
 .contact-me footer {
-  font-size: 20px;
+  font-size: var(--p-size);
   text-align: center;
   margin-top: 20px;
   padding: 5px;
   background-color: #151515;
-  color: rgb(111, 111, 111);
+  color: var(--cor-menu);
   letter-spacing: 2px;
+}
+
+@media (max-width: 1040px) {
+  .galery {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .images {
+    width: 50%;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 0) and (max-width: 950px) {
+  .images {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
 }
